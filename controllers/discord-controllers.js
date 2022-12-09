@@ -90,7 +90,7 @@ const getMembers = async(req, res, next) => {
     });
   }
 
-    client.login('MTAzMTYxNDU0Njg5NDM4OTMxMA.GzlW30.eRM-kq-jjFh6sQcmSjK_hbrVYKlZJC6oUbQ9rU');
+    client.login('xxxxxx');
 };
 
 exports.getMembers = getMembers;
