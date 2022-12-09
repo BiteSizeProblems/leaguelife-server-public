@@ -45,9 +45,9 @@ server.use((error, req, res, next) => {
     res.json({ message: error.message || 'An unknown error has occured.' });
 });
 
-const db_username = 'amiles';
-const db_password = 'hifi75';
-const db_name = 'leaguelife';
+const db_username = 'xxxxxx';
+const db_password = 'xxxxxx';
+const db_name = 'xxxxxx';
 
 mongoose.connect(
     `mongodb+srv://${db_username}:${db_password}@slipstreamcluster.nnurn.mongodb.net/${db_name}?retryWrites=true&w=majority`
